@@ -2,6 +2,7 @@ div#content{
     padding: 10px;
     margin: auto;
     display: flex;
+
 }
 img#main{
     width: 50%;
@@ -17,8 +18,38 @@ div#overzicht{
     width: 50%;
     text-align: left;
 }
-header{
+#headerdiv {
     width: 100%;
-    padding: 10px;
-    margin: auto;
+    height: 120px;
+}
+
+#navbar, a {
+    position: relative;
+    bottom: 25px;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#headerimg {
+    width: 100%;
+}
+h3 {
+    vertical-align: top;
+    margin: 0 auto 0;
+}
+
+#tekstbende {
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+}
+li{
+    text-decoration: overline;
+}
+ul{
+    list-style: none;
 }
