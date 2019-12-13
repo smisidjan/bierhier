@@ -1,0 +1,95 @@
+#headerdiv {
+    width: 100%;
+    height: 120px;
+}
+
+header {
+    grid-column: 1/5;
+}
+
+#navbar, a {
+    position: relative;
+    bottom: 25px;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#headerimg {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div#linkjes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 96%;
+    margin-top: 30px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border: solid black 2px;
+    grid-column: 1/5;
+
+}
+
+.linkimg {
+    width: 150px;
+    height: 150px;
+    border: solid sandybrown 2px;
+}
+
+a {
+    margin: auto;
+    margin-top: 30px;
+}
+
+div#wrapper {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+div#fotos {
+    grid-column: 1;
+}
+
+img.artist {
+    float: top;
+    height: 300px;
+    width: content-box;
+    margin: 30px auto 10px;
+}
+
+div#tekstvak1 {
+    grid-column: 2;
+    padding: 10px;
+}
+
+div#tekstvak2 {
+    grid-column: 3;
+    padding: 10px;
+    height: 350px;
+}
+
+div#tekstvak3 {
+    grid-column: 4;
+    padding: 10px;
+    height: 350px;
+}
+
+#iframe {
+    grid-column: 3/5;
+    height: 100%;
+    width: 100%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
