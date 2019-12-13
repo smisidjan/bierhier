@@ -25,12 +25,12 @@ body {
     height: 120px;
 }
 
-#navbar, a {
+#navbar, .headershit {
     position: relative;
     bottom: 25px;
 
     text-decoration: none;
-    color: black;
+    color: rgb(11, 94, 168);
     font-size: 20px;
     padding-left: 10px;
     padding-right: 30px;
