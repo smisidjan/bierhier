@@ -1,0 +1,101 @@
+#headerdiv {
+    width: 100%;
+    height: 120px;
+}
+
+header {
+    grid-area: header;
+}
+
+#navbar, a {
+    position: relative;
+    bottom: 25px;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#headerimg {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div#linkjes {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border: solid black 2px;
+    grid-area: linkjes;
+    margin: 10px;
+
+}
+
+.linkimg {
+    width: 150px;
+    height: 150px;
+    border: solid sandybrown 2px;
+    margin-top: 10px;
+}
+
+a {
+    margin: auto;
+}
+
+div#wrapper {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid:
+    "header header header header"   140px
+    "fotos tekstvak1 tekstvak2 tekstvak3" 400px
+    "fotos tekstvak1 filmpje filmpje"   400px
+    "linkjes linkjes linkjes linkjes"  200px
+    / 25% 25% 25% 25%;
+}
+
+div#fotos {
+    grid-area: fotos;
+}
+
+img.artist {
+    float: top;
+    height: 40%;
+    width: 100%;
+    margin: 30px auto 10px;
+}
+
+div#tekstvak1 {
+    grid-area: tekstvak1;
+    padding: 10px;
+}
+
+div#tekstvak2 {
+  grid-area: tekstvak2;
+    padding: 10px;
+    height: 350px;
+}
+
+div#tekstvak3 {
+  grid-area: tekstvak3;
+    padding: 10px;
+    height: 350px;
+}
+
+#iframe {
+    grid-area: filmpje;
+    height: 100%;
+    width: 90%;
+    vertical-align: top;
+}
+iframe{
+    height: 70%;
+    width: 100%;
+    margin-bottom: 100px;
+}
