@@ -11,7 +11,7 @@ body {
     height: 120px;
 }
 
-#navbar, .headershit {
+#navbar, a {
     position: relative;
     bottom: 25px;
 
@@ -29,7 +29,7 @@ body {
 #main {
     padding-left: 10px;
 }
-#stage {
+h3 {
     text-align: right;
 }
 
@@ -43,9 +43,5 @@ article {
 #wrapper {
     width: 90%;
     margin: auto;
-}
-
-footer {
-    background-color: rgb(153, 153, 153);
 }
 
