@@ -56,6 +56,7 @@ div#wrapper {
             "fotos tekstvak1 tekstvak2 tekstvak3" 300px
             "fotos tekstvak1 video video" 300px
             "linkjes linkjes linkjes linkjes" 200px
+            "footer footer footer footer" 240px
     /25%     25%     25%      25%
 ;
 }
@@ -97,4 +98,11 @@ div#tekstvak3 {
 iframe{
     height: 100%;
     width: 100%;
+}
+
+footer {
+    background-color: rgb(153, 153, 153);
+    grid-area:footer;
+    margin-top: 90px;
+    height: 240px;
 }
