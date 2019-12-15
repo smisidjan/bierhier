@@ -61,6 +61,13 @@ h2 {
     margin-top: 20px;
 }
 
+article {
+    width: 33%;
+    vertical-align: top;
+    text-align: match-parent;
+    display: inline-block;
+}
+
 .row:after {
     content: "";
     display: table;

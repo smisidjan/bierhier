@@ -49,7 +49,6 @@ body {
 .imageGoogle {
     display: inline-flex;
     border: 3px solid #fcdf9c;
-    width: 80%;
     padding: 10px;
 }
 
