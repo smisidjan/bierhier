@@ -31,21 +31,6 @@ img {
     width: 100%;
 }
 
-#main {
-    padding-left: 10px;
-}
-#stage {
-    text-align: right;
-}
-
-article {
-    width: 30%;
-    margin: 1%;
-    vertical-align: top;
-    text-align: match-parent;
-    display: inline-block;
-}
-
 #wrapper {
     width: 90%;
     margin: auto;
@@ -60,4 +45,3 @@ footer {
     text-align: center;
     padding-bottom: 5px;
 }
-
