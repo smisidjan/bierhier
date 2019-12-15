@@ -1,0 +1,100 @@
+#headerdiv {
+    width: 100%;
+    height: 120px;
+}
+
+header {
+    grid-area: header;
+}
+
+#navbar, a {
+    position: relative;
+    bottom: 25px;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#headerimg {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div#linkjes {
+    display: flex;
+    justify-content: space-evenly;
+    width: content-box;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border: solid black 2px;
+    grid-area: linkjes;
+    margin-top: 80px;
+    height: 140px;
+
+}
+
+.linkimg {
+    width: 150px;
+    height: 150px;
+    border: solid sandybrown 2px;
+    margin-top: 30px;
+}
+
+
+div#wrapper {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid:
+            "header header header header" 140px
+            "fotos tekstvak1 tekstvak2 tekstvak3" 300px
+            "fotos tekstvak1 video video" 300px
+            "linkjes linkjes linkjes linkjes" 200px
+    /25%     25%     25%      25%
+;
+}
+
+div#fotos {
+    grid-area: fotos;
+    padding: auto;
+}
+
+img.artist {
+    float: top;
+    height: 300px;
+    width: 100%;
+    margin: 30px auto 10px;
+}
+
+div#tekstvak1 {
+    grid-area: tekstvak1;
+    padding: 10px;
+}
+
+div#tekstvak2 {
+    grid-area: tekstvak2;
+    padding: 10px;
+    height: 350px;
+}
+
+div#tekstvak3 {
+    grid-area: tekstvak3;
+    padding: 10px;
+    height: 350px;
+}
+
+#iframe {
+    grid-area: video;
+    height: 100%;
+    width: 100%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}

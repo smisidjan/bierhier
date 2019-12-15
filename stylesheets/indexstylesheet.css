@@ -11,7 +11,7 @@ body {
     height: 120px;
 }
 
-#navbar, .headershit {
+#navbar, a {
     position: relative;
     bottom: 25px;
 
@@ -22,11 +22,6 @@ body {
     padding-right: 30px;
 }
 
-img {
-    width: 100%;
-    align-self: center;
-}
-
 #headerimg {
     width: 100%;
 }
@@ -34,13 +29,12 @@ img {
 #main {
     padding-left: 10px;
 }
-#stage {
+h3 {
     text-align: right;
 }
 
 article {
-    width: 30%;
-    margin: 1%;
+    width: 33%;
     vertical-align: top;
     text-align: match-parent;
     display: inline-block;
@@ -49,15 +43,5 @@ article {
 #wrapper {
     width: 90%;
     margin: auto;
-}
-
-footer {
-    background-color: rgb(153, 153, 153);
-}
-
-#copyright {
-    position: relative;
-    text-align: center;
-    padding-bottom: 5px;
 }
 
