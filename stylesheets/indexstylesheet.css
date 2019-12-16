@@ -49,3 +49,31 @@ footer {
     background-color: rgb(153, 153, 153);
 }
 
+.footerlink {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.footerstuff1 {
+    display: inline-block;
+    width: 80%;
+}
+.footerstuff2 {
+    width: 10%;
+    display: inline-block;
+}
+
+#groepsfoto {
+    position: relative;
+    vertical-align: top;
+    float: right;
+}
+
+#copyright {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+

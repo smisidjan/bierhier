@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheets/indexstylesheet.css">
+    <link href="stylesheets/indexstylesheet.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
     <title>Bier Hier Homepagea</title>
 </head>
@@ -11,7 +11,7 @@
 <div id=wrapper>
     <header>
         <div id="headerdiv">
-            <img src="images/bierbierbier.jpg" alt="bier" id="headerimg" height="128">
+            <img alt="bier" height="128" id="headerimg" src="images/bierbierbier.jpg">
             <nav id="navbar">
                 <a class="headershit" href="index.html">Home</a>
                 <a class="headershit" href="concert.html">Concerten</a>
@@ -27,7 +27,7 @@
         <h1>Nieuws uit Almere Buiten</h1>
 
         <article>
-            <img src="images/bier1.jpg" alt="bier1"><br>
+            <img alt="bier1" src="images/bier1.jpg"><br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim odio, viverra id bibendum porttitor,
             ultricies non tortor.
             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean volutpat
@@ -47,7 +47,7 @@
             Etiam sodales odio lorem, vitae pharetra nisi pharetra ac. In quis metus velit.<br><br> Curabitur sodales
             accumsan suscipit.
             Ut dolor est, euismod sed lacus quis, sollicitudin dignissim sem.
-            <br><img src="images/bier2.jpg" alt="bier2"><br>
+            <br><img alt="bier2" src="images/bier2.jpg"><br>
             Etiam facilisis feugiat scelerisque. Nunc pretium augue eu porta porta.
             Cras mattis laoreet arcu, tincidunt faucibus metus laoreet sed.<br><br> Phasellus a mollis odio, ut
             pellentesque arcu.
@@ -67,19 +67,23 @@
             euismod mi sed tincidunt.
             Donec convallis feugiat leo, non blandit ex facilisis ac.
             Vivamus ex odio, porttitor nec odio vitae, pellentesque cursus lorem.<br>
-            <img src="images/bier3.jpg" alt="bier3">
+            <img alt="bier3" src="images/bier3.jpg">
         </article>
     </section>
     <footer>
         <h3>Sitelinks</h3>
-        <nav id="footer">
-            <a href="contact.html">Contact</a><br>
-            <a href="overons.html">Over ons</a><br>
-            <a href="sport.html">Sport</a><br>
-            <a href="recept.html">Recepten</a><br>
-            <a href="concert.html">Concerten</a>
-        </nav>
-        <img src="images/groepfoto" alt="Groepsfoto Team">
+        <section class="footerstuff1">
+            <nav id="footer">
+                <a class="footerlink" href="contact.html">Contact</a><br>
+                <a class="footerlink" href="overons.html">Over ons</a><br>
+                <a class="footerlink" href="sport.html">Sport</a><br>
+                <a class="footerlink" href="recept.html">Recepten</a><br>
+                <a class="footerlink" href="concert.html">Concerten</a>
+            </nav>
+        </section>
+        <section class="footerstuff2">
+            <img alt="Groepsfoto Team" id="groepsfoto" src="images/groepfoto">
+        </section>
         <p id="copyright">Copyright &copy; ROC Flevoland 2105</p>
     </footer>
 </div>

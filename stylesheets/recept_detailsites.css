@@ -36,13 +36,30 @@ img {
 }
 
 section {
-    width: 40%;
     display: inline-block;
+    width: 40%;
+}
+#bakken {
+    width: 100%;
 }
 
-.receptimage {
+.bakimage {
+    margin-right: 60px;
+    width: 20%;
+}
+
+#gerecht {
     float: right;
-    display: inline-block;
+    width: 100%;
+}
+
+.spgerecht {
+    width: 50%;
+    float: right;
+}
+
+#deel1 {
+    vertical-align: top;
 }
 
 footer {
