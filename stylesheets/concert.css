@@ -88,5 +88,16 @@ div#wrapper{
 
 footer {
     background-color: rgb(153, 153, 153);
+}
 
+.footerlink {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+#copyright {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5px;
 }

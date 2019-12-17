@@ -6,24 +6,38 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#headerdiv {
+.header {
+    border: 5px solid #fcdf9c;
     width: 100%;
-    height: 120px;
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+    background: white;
+    flex: auto;
 }
 
-#navbar, .headershit {
-    position: relative;
-    bottom: 25px;
-
+.topnav {
+    overflow: hidden;
+    background-color: #fcdf9c;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: rgb(11, 94, 168);
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 30px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 #headerimg {
+    display: inline-flex;
     width: 100%;
+    height: 200px;
 }
 
 #main {
@@ -75,5 +89,10 @@ footer {
     padding-bottom: 5px;
 }
 
-
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
 
