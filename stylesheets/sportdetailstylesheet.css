@@ -74,6 +74,22 @@ article {
     clear: both;
 }
 
+footer {
+    background-color: rgb(153, 153, 153);
+}
+
+.footerlink {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+#copyright {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width: 400px) {
     .leftcolumn, .rightcolumn, .image {
         width: 100%;
